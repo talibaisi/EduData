@@ -1,0 +1,3 @@
+language: python
+script: download_data.py
+script: utils.py
