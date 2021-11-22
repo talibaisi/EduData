@@ -1,3 +1,6 @@
-language: python
-script: download_data.py
-script: utils.py
+language: php
+php:
+- 7.1
+before_script:
+- composer install
+
