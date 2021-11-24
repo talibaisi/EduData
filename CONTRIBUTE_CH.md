@@ -20,7 +20,7 @@
 1. 首先fork此仓库到你的分支下
 2. 对代码进行修改。注意：我们强烈建议你遵守我们的 [commit格式规范](CONTRIBUTE_CH.md#关于Commit的格式)
 3. 通过代码测试，测试覆盖度达到100%，例子可见[此处](tests)
-4. 通过Pull Request 提及到到 [EduData](https://github.com/bigdata-ustc/CDM) 。注意：我们提供了一个标准的PR请求模板，你需要认真完成其中的信息，一个标准且规范的PR可参考[此处](https://github.com/bigdata-ustc/EduData/pull/37)
+4. 通过Pull Request 提交修改到 [EduData](https://github.com/bigdata-ustc/EduData)的`dev`分支。注意：我们提供了一个标准的PR请求模板，你需要认真完成其中的信息，一个标准且规范的PR可参考[此处](https://github.com/bigdata-ustc/EduData/pull/37)
 
 以下是对于不同贡献内容的有用建议：
 
