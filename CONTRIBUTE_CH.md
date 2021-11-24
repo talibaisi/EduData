@@ -20,7 +20,7 @@
 1. 首先fork此仓库到你的分支下
 2. 对代码进行修改。注意：我们强烈建议你遵守我们的 [commit格式规范](CONTRIBUTE_CH.md#关于Commit的格式)
 3. 通过代码测试，测试覆盖度达到100%，例子可见[此处](tests)
-4. 通过Pull Request 提及到到 [EduData](https://github.com/bigdata-ustc/CDM) 。注意：我们提供了一个标准的PR请求模板，你需要认真完成其中的信息，一个标准且规范的PR可参考[此处](https://github.com/bigdata-ustc/EduData/pull/37)
+4. 通过Pull Request 提交修改到 [EduData](https://github.com/bigdata-ustc/EduData)的`dev`分支。注意：我们提供了一个标准的PR请求模板，你需要认真完成其中的信息，一个标准且规范的PR可参考[此处](https://github.com/bigdata-ustc/EduData/pull/37)
 
 以下是对于不同贡献内容的有用建议：
 
@@ -34,6 +34,28 @@
 * 运行 `pytest` 测试数据下载是否正常
 
 ### 添加新的数据分析
+当你完成数据分析之后请按照以下步骤将你的数据分析添加到项目中：
+1. 将数据分析文件（`.ipynb`或`.md`）文件放到`EduData/docs/analysis`目录下
+2. 编辑`EduData/docs/source/zh/DataSet.rst`文件，按照如下的格式添加你的数据分析信息
+```
+1
+------------------------------
+
+.. nbgallery::
+    :caption: 2
+    :name: 3
+    :glob:
+
+    4 <../../build/blitz/5>
+```
+3. 将数字处按照你的数据分析文件的信息替换
+   1. 分析的数据集名称，例如`pisa2015math`
+   2. 数据集的标题，一般与1处相同
+   3. 数据集的内部标签，一般用数据集名称加_gallery，例如`pisa2015math_gallery`
+   4. 数据分析的描述
+   5. 数据分析文件相对于`EduData/docs/analysis`目录的位置，不带拓展名，例如`pisa2015math`
+
+4. 如果同一个数据集下有多个数据分析文件则在同一个`nbgallery`下添加多行数据分析的信息
 
 ### 代码注释风格
 
