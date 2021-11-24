@@ -19,7 +19,7 @@ based on the type of contribution:
 3. You want to add the data analysis or a new dataset
 
 Once you implement and test your feature or bug-fix, 
-please submit a Pull Request to [https://github.com/bigdata-ustc/EduData](https://github.com/bigdata-ustc/EduData)
+please submit a Pull Request merging your changes to the `dev` branch of [https://github.com/bigdata-ustc/EduData](https://github.com/bigdata-ustc/EduData)
 
 The followings are some helpful guidelines for different types contribution:
 
