@@ -55,6 +55,7 @@ After you complete the data analysis, please follow the steps below to add your 
    5. The location of the data analysis file relative to the `EduData/docs/analysis` directory, without extension, such as `pisa2015math`
 
 4. If there are multiple data analysis files under the same data set, add multiple rows of data analysis information under the same `nbgallery`
+5. Before you submit your analysis, please refer to [the guidance of autodoc](docs/README.md) and check your locally rendered files. **And notice that, the target branch is `doc` rather than `dev`**
 
 ## FAQ
 
