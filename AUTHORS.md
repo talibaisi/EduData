@@ -32,4 +32,5 @@
 
 [Shizhe Zhu](https://github.com/icarushhh)
 
+[Shuangzhi Li](https://github.com/AidenLsz)
 The stared contributors are the main authors.

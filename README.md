@@ -6,39 +6,44 @@
 [![PyPI](https://img.shields.io/pypi/v/EduData.svg)](https://pypi.python.org/pypi/EduData)
 [![test](https://github.com/bigdata-ustc/EduData/actions/workflows/python-test.yml/badge.svg?branch=master)](https://github.com/bigdata-ustc/EduData/actions/workflows/python-test.yml)
 [![codecov](https://codecov.io/gh/bigdata-ustc/EduData/branch/master/graph/badge.svg)](https://codecov.io/gh/bigdata-ustc/EduData)
+[![Documentation Status](https://readthedocs.org/projects/edunlp/badge/?version=latest)](https://edudata.readthedocs.io/en/latest/?badge=latest)
 [![Download](https://img.shields.io/pypi/dm/EduData.svg?style=flat)](https://pypi.python.org/pypi/EduData)
 [![License](https://img.shields.io/github/license/bigdata-ustc/EduData)](LICENSE)
 [![DOI](https://zenodo.org/badge/195198356.svg)](https://zenodo.org/badge/latestdoi/195198356)
 
-Convenient interface for downloading and preprocessing datasets in education.
+Convenient interface for downloading and preprocessing datasets in education. For more details, please refer to the full [documentation](https://edudata.readthedocs.io/en/latest).
 
-The datasets include:
+The [datasets](https://edudata.readthedocs.io/en/latest/tutorial/zh/DataSet.html) include:
 
-* [ASSISTments (2009-2010, 2012-2013, 2015, 2017)](https://sites.google.com/site/assistmentsdata/) [[Analysis]](docs/analyses/ASSISTments)
+* [ASSISTments (2009-2010, 2012-2013, 2015, 2017)](https://sites.google.com/site/assistmentsdata/)
+  * 2009-2010 [[Analysis]](https://edudata.readthedocs.io/en/latest/build/blitz/ASSISTments/ASSISTments2009-2010.html)
+  * 2012-2013 [[Analysis(TBA)]]()
+  * 2015 [[Analysis]](https://edudata.readthedocs.io/en/latest/build/blitz/ASSISTments/ASSISTments2015.html)
+  * 2017 [[Analysis]](https://edudata.readthedocs.io/en/latest/build/blitz/ASSISTments/ASSISTments2017.html)
 
-* [KDD Cup 2010](https://pslcdatashop.web.cmu.edu/KDDCup/downloads.jsp) [[Analysis]](https://github.com/bigdata-ustc/EduData/blob/master/docs/analyses/KDD%20Cup%202010.ipynb)
+* [KDD Cup 2010](https://pslcdatashop.web.cmu.edu/KDDCup/downloads.jsp) [[Analysis]](https://edudata.readthedocs.io/en/latest/build/blitz/KDD%20Cup%202010.html)
 
-* [OLI Engineering Statics 2011](https://pslcdatashop.web.cmu.edu/DatasetInfo?datasetId=507) [[Analysis]](docs/analyses/OLI_Fall2011)
+* [OLI Engineering Statics 2011](https://pslcdatashop.web.cmu.edu/DatasetInfo?datasetId=507) [[Analysis]](https://edudata.readthedocs.io/en/latest/tutorial/zh/DataSet.html#oli-fall2011)
 
-* [JunyiAcademy Math Practicing Log](https://pslcdatashop.web.cmu.edu/DatasetInfo?datasetId=1198) [[Analysis]](docs/analyses/junyi/junyi.ipynb)
+* [JunyiAcademy Math Practicing Log](https://pslcdatashop.web.cmu.edu/DatasetInfo?datasetId=1198) [[Analysis]](https://edudata.readthedocs.io/en/latest/build/blitz/junyi/junyi.html)
 
 * [slepemapy.cz](https://www.fi.muni.cz/adaptivelearning/?a=data)
 
 * [synthetic](https://github.com/chrispiech/DeepKnowledgeTracing/tree/master/data/synthetic)
 
-* [math2015](http://staff.ustc.edu.cn/~qiliuql/files/Publications/Qi-Liu-TIST2018.pdf) [[Analysis]](docs/analyses/math2015)
+* [math2015](http://staff.ustc.edu.cn/~qiliuql/files/Publications/Qi-Liu-TIST2018.pdf) [[Analysis]](https://edudata.readthedocs.io/en/latest/tutorial/zh/DataSet.html#math2015)
 
-* [EdNet](https://github.com/riiid/ednet) [[Analysis]](docs/analyses/EdNet_KT1/EdNet_KT1.ipynb)
+* [EdNet](https://github.com/riiid/ednet) [[Analysis]](https://edudata.readthedocs.io/en/latest/build/blitz/EdNet_KT1/EdNet_KT1.html)
 
-* [pisa2015math](https://drive.google.com/drive/folders/1ja9P5yzeUDyzzm748p5JObAEs_Evysgc) [[Analysis]](docs/analyses/pisa2015math.ipynb)
+* [pisa2015math](https://drive.google.com/drive/folders/1ja9P5yzeUDyzzm748p5JObAEs_Evysgc) [[Analysis]](https://edudata.readthedocs.io/en/latest/build/blitz/pisa2015math.html)
 
 * [workbankr](https://drive.google.com/drive/folders/1ja9P5yzeUDyzzm748p5JObAEs_Evysgc)
 
 * [critlangacq](https://drive.google.com/drive/folders/1ja9P5yzeUDyzzm748p5JObAEs_Evysgc)
 
-* [math23k](http://base.ustc.edu.cn/data/math23k.zip) [[Analysis]](docs/analyses/Math23k_Analysis_Report.ipynb)
+* [math23k](http://base.ustc.edu.cn/data/math23k.zip) [[Analysis]](https://edudata.readthedocs.io/en/latest/build/blitz/Math23k_Analysis_Report.html)
 
-* [MOOCCube](http://moocdata.cn/data/MOOCCube) [[Analysis]](docs/analyses/MOOCCube.md)
+* [MOOCCube](http://moocdata.cn/data/MOOCCube) [[Analysis]](docs/analysis/MOOCCube.md)
 
 * [NIPS2020](https://www.microsoft.com/en-us/research/academic-program/diagnostic-questions/)
 
